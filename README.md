@@ -17,8 +17,13 @@
     |  VS Code   | Already installed ✔️      |
 
 ### 2. Clone the Project
-    > https://github.com/your-username/Playwright_Automation_TransmediaInc.git
-    > cd Playwright_Automation_TransmediaInc 
+
+    Run the following commands in your terminal:
+
+    ```bash
+    git clone https://github.com/your-username/Playwright_Automation_TransmediaInc.git
+    cd Playwright_Automation_TransmediaInc
+
 
 ### 3. Open the Project in VS Code
 
