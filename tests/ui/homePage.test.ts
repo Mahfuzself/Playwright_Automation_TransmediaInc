@@ -1,6 +1,6 @@
 
 import test,{expect} from '../../fixtures/basePages';
-  test("Input a Board name, press enter. Verify Board created successfully", async ({page,homePage}) => { 
+  test("TC1 : Input a Board name, press enter. Verify Board created successfully", async ({page,homePage}) => { 
     let boardName = "Test Board";
     await homePage.navigate();
     await homePage.getTitle();
@@ -14,7 +14,7 @@ import test,{expect} from '../../fixtures/basePages';
     await homePage.verifyBoardName(boardName);
 
   });
-  test("Add two lists and verify two lists created successfully.", async ({page,homePage}) => {
+  test("TC2 : Add two lists and verify two lists created successfully.", async ({page,homePage}) => {
      await homePage.navigate();
      await homePage.clickBoard();
      await homePage.inputListName("List 1");
@@ -24,7 +24,7 @@ import test,{expect} from '../../fixtures/basePages';
      await homePage.verifyListName1("List 1");
      await homePage.verifyListName2("List 2");
   });
-  test("3. Delete a list.", async ({page,homePage}) => {
+  test("TC3: Delete a list.", async ({page,homePage}) => {
      await homePage.navigate();
      await homePage.clickBoard();
      await homePage.listThreeDots();
