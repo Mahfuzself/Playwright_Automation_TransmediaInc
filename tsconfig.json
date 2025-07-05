@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["es2015", "es6", "dom", "es2018.promise"],
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "types": ["@playwright/test","node"],
+    "baseUrl": "http://localhost:3000/",  // ✅ REQUIRED
+    "paths": {
+      "@pages/*": ["pages/homePage.page*/"],
+      "@fixtures/*": ["fixtures/*"]
+    }
+  }
+}

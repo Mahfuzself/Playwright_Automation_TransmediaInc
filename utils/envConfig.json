@@ -1,0 +1,21 @@
+ {
+  "dev": {
+    "BASE_URL": "http://localhost:3000",
+    "ROUTE": "/admin/#/home/",
+    "USERNAME": "standard_user",
+    "PASSWORD": "secret_sauce"
+
+  },
+  "prod": {
+    "BASE_URL": "https://qa-1..com/",
+    "ROUTE": "/admin/#/home/",
+    "USERNAME": "standard_user",
+    "PASSWORD": "secret_sauce"
+
+  },
+  "stg": {
+    "BASE_URL": "https://qa-1..com///admin/#/",
+    "ROUTE": "/admin/#/home/",
+    "USERNAME": "standard_user",
+    "PASSWORD": "secret_sauce"  }
+}
